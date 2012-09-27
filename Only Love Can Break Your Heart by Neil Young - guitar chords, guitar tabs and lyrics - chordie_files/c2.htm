@@ -1,0 +1,73 @@
+
+<!-- saved from url=(0113)http://jmn.jangonetwork.com/c2?cust_params=j_artist=Neil%20Young&j_title=Only%20Love%20Can%20Break%20Your%20Heart -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- PUT THIS TAG IN THE head SECTION -->
+<script type="text/javascript" src="google_service.js">
+</script>
+<script type="text/javascript">
+function getCustParamValue(name) {
+var params = unescape(window.location.search);
+var q = params.substring(params.indexOf('cust_params=')+12);
+var vars = q.split("&");
+for (var i=0;i<vars.length;i++) {
+var pair = unescape(vars[i]).split("=");
+if (pair[0] == name) {
+return unescape(pair[1]); break;
+}
+}
+}
+</script>
+<script type="text/javascript">
+GS_googleAddAdSenseService("ca-pub-3687873374834629");
+GS_googleEnableAllServices();
+</script><script src="google_ads.js"></script>
+<script type="text/javascript">
+var title=getCustParamValue("j_title")||"song";
+var artist=getCustParamValue("j_artist")||"artist";
+var clickurl="http://redirect.jango.com/ad=pid_chordie2_aid_jangoplayer/www.jango.com/music/"+artist+"/"+title;
+GA_googleUseIframeRendering();
+GA_googleAddAttr("j_title", title);
+GA_googleAddAttr("j_artist", artist);
+</script>
+<style type="text/css">
+a {font-family:Verdana;}
+a:link {color: blue;cursor:pointer;text-decoration:none;font-family:Verdana;}
+a:visited {color: blue;cursor:pointer;font-family:Verdana;}
+a:hover {text-decoration:none;color:red}
+a:link #jTitle, a:link #jArtist{text-decoration:underline;}
+
+div.player {
+ height:43px;
+ width:193px;
+ margin:0px;
+ position: absolute;
+ cursor:pointer;
+ background:transparent url(http://cd32.static.jango.com/images/promo/chordie193x43-2.gif) no-repeat center center;
+}
+/*  for ie6 only  */
+* html div.player {
+       background-image:none;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true',src='http://cd32.static.jango.com/images/promo/chordie193x43-2.gif',SizingMethod='crop')
+}
+</style>
+</head>
+<body style="margin: 0; padding: 0" marginwidth="0" marginheight="0">
+<a target="_blank" style="display:block;width:193px;height:43px;float:left" id="jAdLink1" href="http://redirect.jango.com/ad=pid_chordie2_aid_jangoplayer/www.jango.com/music/Neil%20Young/Only%20Love%20Can%20Break%20Your%20Heart">
+<div class="player">
+    <span style="color:#000000; font-size:13px; display: block; margin-top: 14px; margin-left: 53px; height: 18px; width: 130px; overflow: hidden;">
+<span style="display:block;width:500px" id="fillme">Neil Young&nbsp;-&nbsp;Only Love Can Break Your Heart</span>
+    </span>
+</div>
+</a>
+<script type="text/javascript">
+    document.getElementById("fillme").innerHTML =  artist + '&nbsp;-&nbsp;' +  title;
+    document.getElementById("jAdLink1").href = clickurl;
+    document.getElementById("jAdLink2").href = clickurl;
+</script>
+<img src="chordie2.gif" style="width:1px;height:1px;">
+
+
+
+
+
+</body></html>

@@ -1,0 +1,1218 @@
+@media screen {
+	body {color:#36c;margin-left:10px;margin-top:0px;padding:0;font:0.9em verdana,arial,sans-serif}
+	h1 {color:#607386;margin:0;padding:0;font-size:15px;}
+	h2 {margin-left: 0px; padding-right: 0px; margin-bottom: 0px;margin-top: 5px;font-size: 1.3em;}
+	img {border:none}
+	ul {margin-left:0;padding:0;margin-top:0;padding-left:10px;}
+	ul.commentul {margin-left:10px;padding:5px;}
+	a {color:#693}
+	a.footer {color:#999;font-weight:normal;text-decoration:none}
+	pre {font-size: 95%;margin: 0;line-height: 0.9em;}
+	form {display: inline;}
+	input {padding-left: 2px;}
+	table {border-collapse: collapse;}
+	.albumimagec {float:left; clear:left;width:160px;margin-bottom: 20px;padding: 5px;}
+	.separator {display:none;}
+	.improve {position:relative;border-bottom: 5px solid white;clear: both;margin-top: 5px;padding-bottom: 10px;padding-top: 10px;padding-left: 0px;text-align: center;background:#f0f0f0;}
+	.sort {position: absolute; z-index: 20;width: 300px; text-align: right;right: 265px; top: 0px;}
+	#letterselect {display: none;}
+	#headermargin {padding-right: 194px;}
+	#slogan {color:#607386;margin:0;padding:0;font-size:15px;font-weight:bold;}
+	#controlc {position: absolute; margin: 0px;padding: 5px;border:1px solid #36c;right: 0px;border-right:0px; border-top: 0px;background:#f0f0f0;top: 0px;z-index: 100;float: right;display: none;}
+	#scrollcontrol,#noscrollcontrol {z-index: 0;position: absolute;background-color: #f0f0f0;left: 0px;height: 45px;width: 180px;padding-left: 5px;}
+	#noscrollcontrol {z-index: 3}
+	#small {font: 11px arial;font-weight: bold;}
+	#normal {font: 15px arial;font-weight: bold}
+	#large {font: 19px arial;font-weight: bold;}
+	.onlyipod {display: none;}
+	.scrollnr {text-decoration: none;font-size: 90%;}
+	.songlist {float: left;margin-top:0;margin-left:5px;margin-bottom: 20px;padding-right:0;margin-right: 0;}
+	.songlistitem {color: black;margin-right: 250px;}
+	.sbl,.bl {text-decoration:none}
+	.sbl {color:white}
+	.bold {font-weight: bold}
+	.noborder {color:white}
+	.right {text-align:right}
+	.left {float:left}
+	.small {font-size:0.9em}
+	.center {text-align:center}
+	.hiddenunderline {text-decoration: none;}
+	.hiddenunderline:hover {text-decoration: underline;}
+	.underline {text-decoration:underline}
+	.green {color:#693}
+	.grey {color:#999}
+	.black {color:black}
+	.white {color: white}
+	.red {color: #c33}
+	.smallcaps {font-variant: small-caps}
+	.darkblue {color: #36c}
+	.codebox {background: white; color: black;border: 1px solid gray; padding: 10px;}
+	.iterationbar {text-align:center}
+	.popularitem {padding-bottom:5px}
+	.songname,.artistname {margin-left:5px}
+	.artistname:visited,.songname:visited,.popularartistname:visited,.browseartistname {color:#607386}
+	.artistname {color:#36c}
+	.popularartistname,.browseartistname:visited {color:#607386; text-decoration: none}
+	.browseartistname {text-decoration: none;}
+	.chordheading {margin-top:25px}
+	.selectedtab,.unselectedtab {position:relative;float:left;padding-bottom: 2px;font-size: 14px;margin-right:2px;color:#fff;font-weight:bold;background:#36c url(http://images.chordie.com/images/flipDark.gif) no-repeat 100% 0}
+	.unselectedtab {background:#6cf url(http://images.chordie.com/images/flip.gif) no-repeat 100% 0}
+	.tablink {text-decoration:none;color:white;padding-left:5px;padding-right:5px; font-size: 14px;}
+	.tablink:hover {text-decoration:underline}
+	.search {border:1px solid #36c}
+	.submit,.submitlogin {border: none;color:white;cursor:pointer;text-decoration:none;font-weight:bold;padding-left:2px;padding-right:2px;padding-bottom:2px;background:#36c}
+	.login {position:absolute;border:1px solid #36c;width:60px}
+	.registerinput,.reminderinput {border:1px solid #36c;width:160px;margin-bottom:10px}
+	.boxtitle {color:#36c;position:relative;left: 25px;font-size: 14px; top:-10px;padding-left:5px;padding-right:5px;background:#fff;font-weight: bold;}
+	.l,.sl {position:relative;float:left;width:3.6%;text-align:center;font-weight:bold}
+	.sl {background:#36c}
+	.switchbrowse {color:#693;position:absolute;top:10px;left:505px;width:50px;padding-right:5px; font-size: 14px;}
+	.clear {clear: both;}
+	.wb {border-bottom: 1px solid white;}
+	.commenttext {color: black;margin-left: 10px; margin-right: 10px; margin-top: 15px;}
+	.fixedw {width: 300px;}
+	.padleft {padding-left: 10px;}
+	#msnlink,#ituneslink {text-decoration: none; background-color: gray;cursor: pointer;color: white;font-family: arial;padding:2px;display: block; margin-top: 5px;margin-bottom: 5px;width: 90px;} 
+	#greyartistname {margin-left: 5px; color:#999}
+	#filterboxsmall {z-index: 20;position: absolute; text-align: right;top: -1px;padding: 2px; padding-right: 5px;border-left: 1px solid #36c; border-bottom: 1px solid #36c;right: -1px; background-color: white;}
+	#filterboxlarge {z-index: 20;position: absolute; width: 40%;float: right; top: -1px;padding: 2px; padding-right: 5px;border-left: 1px solid #36c; border-bottom: 1px solid #36c;right: -1px; background-color: white;}
+	#createsongbookc {margin-left: 10px;width: 100%;}
+	#createsongbooknameinput {width: 70%;margin-bottom: 5px;margin-top: 5px;}
+	#songbooklist {position: relative; right: 4px; margin: 2px;margin-bottom: -7px;width: 35%;float: left; background-color:#669933;border: 2px solid #669933;border-right: none;}
+	#songbookerror {position: relative; float: right; width: 69%; color: red; font-weight: bold; margin-bottom: 20px;margin-top: 10px;}
+	.whitehr {margin-top: 2px;margin-left: 10px; margin-right: 10px;border: 1px solid white;}
+	.songbooklistlinks, .songbooklistlinksselected {color: black; padding: 5px;font-weight: bold;}
+	.songbooklistlinksselected {color: #3366CC; background-color: #f0f0f0; text-decoration: none;}
+	#songbooktitlec {position: absolute; bottom: 0px;}
+	#songbookaddc {position: absolute; bottom: 0px;right: 5px;font-size: 95%;}
+	#songbooktitle {color: white; padding-left: 10px;}
+	#songbookwidetitlec {position: relative;height: 30px;}
+	#songbooksongs {position: relative;float: left;width: 60%;}
+	#songbookpublicinput {width: 50%}
+	#songbookpublicarea {width: 51%}
+	#artistexpl, #songexpl {position: relative;float: right; z-index: 5;width: 150px; margin-right: 10px; margin-top: 15px;text-align: right;}
+	#commentheading {font-size: 1.0em;}
+	#log {position:absolute;top:0;left:10px}
+	#artistheading,#resultheading,#resourcesheading,#songbookheading,.chordheading {position:relative;padding:5px;font-size:1.6em;color:#36c}
+	#artistheading{float: left;padding-left: 10px;color: black;font-size: 40px;font-family:serif;}
+	.newartistheading {clear: left;height: 24px;font-size: 1.2em;margin-top: 20px;padding-left: 5px; color: black;background-color:#f0f0f0;}
+	#songbookheading {color: #36c;font-size: 1.3em; clear: none;}
+	#wikic {position:absolute;top: 10px;clear: both;padding-left: 0px;right: 0px;width: 258px;background:#f0f0f0;}
+	#wikitext {padding: 6px;padding-top: 10px;padding-right: 12px;padding-left: 10px;font-size: 80%;}
+	#songc {float:none;margin-top:10px;}
+	#song {margin-top: 20px;}
+	.songnamelist {color: black;padding-left: 10px;}
+	.songnamec {padding-top: 3px;padding-bottom: 3px;}
+	.greybg {background: #f9f9f9;}
+	#wikipediaheader {margin-top:0; }
+
+	#resultc,#ajaxresultc,#resourcesc,#commentboxc,#songbookc,#singlesongc {width:95%;padding-left:5px;padding-right:5px}
+	#ajaxresultc {width: 57%;}
+	#singlesongc {padding-left: 10px;}
+	#resourcesc {width: 95%;}
+	#rightc {position:absolute;top:20px;right: 10px;}
+	#log {position:absolute;left:10px;top:10px}
+	#newsflash,#newsflash2 {color: black;padding:10px;background:#f0f0f0}
+	#newsflash2 {margin-top: 10px;}
+	#newsflash.a {font-weight: bold;}
+	#tabs {padding-top: 10px;clear: both;width: 600px;}
+	#mostpopular,#topartists, #mostpopularsong,#megaadd {font-size: 11px;border:1px solid #ccc;width:178px;padding-bottom:10px;margin-bottom:10px;background-color: white;}
+	#megaaddc {padding-left: 4px;padding-top: 4px;}
+	.rightad {border:none;width:180px;margin-bottom:10px}
+	#lpbox,#topadc {position:relative;background-color: white;font-size: 11px;color:gray;border:1px solid #ccc;width:235px;height:60px; float: right;margin-top: 20px;}
+	#loginerror {position: relative;background-color:red;top: -1px;float:right; clear: right;width:231px;border:1px solid #ccc;border-top: none;text-align:center;color:#c33;padding:2px;background:#fff}
+	#requiredinfo {font-weight: bold;color: red;}
+	#topadc {border:none;}
+	#bodyhigh,#header,#bodynobar,#bodysong,#bodybrowse {position: static;margin-right: 194px;}
+	#bodysong {margin-right: 5px;}
+	#header {z-index: 5}
+	#frontpagetextleft,#frontpagetextright,#frontpagetextleftadv,#frontpagetextrightadv {position:relative; width:48%;padding:0px;float:left;margin-top: 10px;margin-bottom: 10px;font-size:0.85em;}
+	#frontpagetextright {padding-left: 4%;}
+	#error, #listartists,#artistoverview,#resources,#publicsongbook,#commentbox,#singlesong,#songbook,#searchresults {position:relative;border:1px solid #36c;width:100%;margin-bottom:10px;padding-bottom: 10px;background:#f0f0f0;float:left; }
+	#artistoverview{color: black; background-color: white;}
+	#publicsongbook {background: white;}
+	#singlesong {position: relative;color:black;background:white}
+	#error, #artistoverview,#singlesong {margin-top:10px;}
+	#listartists {margin-top: 5px;}
+	#searchresults {border-top:none;top: -1px;}
+	#innersearchresults {padding-left: 10px;padding-right: 10px;}
+	#horadc {position: relative; float: left; clear: both;width: 100%;border: 1px solid #36c;margin-top: 5px;padding-top: 5px;padding-bottom: 5px;}
+	#horadtitle {width: 120px;padding-left: 5px;float: left;font-size: 90%;}
+	#horadcontent {float: left;font-size: 85%;}
+	#songbookadcontent {font-size: 81%;}
+
+	#leftcolumn {float: left; width: 49%;}
+	#rightcolumn {float: left; width: 49%;}
+
+	#addurl {border:1px solid #36c;width:300px}
+	#loginsubmit,#ratesubmit, #ratecancel,#songbooksubmit,#songbookcancel,#registersubmit,#remindersubmit,#feedbacksubmit,#feedbackcancel,#searchsubmit,#submitadvanced,#previewsave, #previewupdate, #previewrevert,#filtersubmit {color:#693;border:1px solid #36c; cursor: pointer;}
+	#filtersubmit {margin-left: 5px; margin-top: 5px; margin-bottom: 5px;}
+	#loginsubmitc {left:160px;top:34px;width:68px;text-align:right}
+	#loginsubmit {width:50px; font-size: 11px;}
+	#addsubmit,#songbooksubmit {color:#693;border:1px solid #36c;}
+	#sbrename,#sbchange,#sbcopy,#sbmove,#sbdelete,#sbpublish {width: 70px;color:#693;border:1px solid #36c;}
+	#sbchangedrop,#sbcopydrop,#sbmovedrop {margin-left: 10px;width: 90%;}
+	#sbnameinput {border: 1px solid #EFEFEF;padding: 3px;margin-left: 10px;margin-right: 5px;width: 83%;}
+	#searchbox, #smallsearchbox, #searchboxadvanced {position: relative;border:1px solid #36c;background:#f0f0f0;width: 100%;padding-bottom: 5px;clear: both;}
+	#firstlinec,#secondlinec {padding: 1%;padding-bottom: 0;position:relative;clear:both;width: 98%;}
+	#secondlinec {height: 25px;}
+	#letterc {color:#f0f0f0;float: left;width: 79%;}
+	#searchtext,#browsetext {position: relative;float: left;text-align: left;color:#36c;width: 20%;}
+	#searchform {float: left;width: 64%}
+	#searchinputbox {position:relative;width: 75%;margin-right: 5px;margin-left: 5px;float:left; border:1px solid #36c;}
+	#searchsubmit,#submitadvanced {position:relative;width: 18%;float: left;}
+	#matchadvanced,#whatadvanced,#resultsadvanced {position:relative; float: left;padding-top: 5px;padding-left: 5px;}
+	#matchadvanced {clear: both;padding-left: 5px;}
+	.switchsearch,.switchadvanced {position: relative;color:#693;float: right;text-align: right;width: 15%; top: 5px;}
+	#firstcol, #secondcol {float: none;}
+	#register,#loginbox,#passwordbox,#passwordtext,#logintext,#logouttext,#loginsubmitc {position:absolute}
+	#register {top:10px;left:160px;padding-right:5px;text-align:right;color:#693;width:68px}
+	#registerlink {font-size: 11px;}
+	#logintext,#loginbox {top:10px}
+	#loginbox,#passwordbox {top:10px;left:70px;width:95px;font-size: 11px;border:1px solid #36c}
+	#logintext,#passwordtext {left:5px; font-size: 11px;}
+	#passwordbox,#passwordtext {top:35px}
+	#logouttext {top:40px;left:190px}
+	#footer {position:relative;border-top:1px solid #ccc;color:#999;text-align:center;clear:both;font-size:0.9em}
+	#logo {position:relative;left:10px;top:10px; z-index: 5;float: left;}
+	.songiteration {clear: both;width: 100%;text-align:center}
+	.icons {width: 33.3%;float:left;text-align: center;background-position: top center;background-repeat: no-repeat;color:gray;}
+	.icons:hover {background-color: #EFEFEF;color:black;text-decoration:underline;}
+	#songright {top:10px;position:relative;padding:0;padding-top:10px;width:191px;text-align:center}
+	.imageexplanation {clear: both; font-size: 75%;text-align: center;color: gray;margin-bottom: 5px;}
+	.icontext {font-size: 10px;text-align: center;}
+	#action0,#action1,#action2,#action3,#action4,#action5,#action6,#action7,#action8,#action9,#action10,#actionadd {text-align: center;position:relative;padding-bottom: 5px;clear:both; font-size: 1.0em;background-color: #f0f0f0; color: #36c; border: 1px solid #36c; border-right: none;border-bottom: none;}
+	#action10 {break;order-bottom: 0;padding-bottom: 1px;border-left: 0;margin-right: -1px;background-color: white;border-right: 1px solid white;}
+	#action4 {text-align: center;border-bottom: 1px solid #36c;}
+	#action7 {text-align: left;}
+	#action8 {padding-top: 5px;padding-bottom: 5px;padding-left: 10%; padding-right: 10%;height: 45px;}
+	#actionadd {background-color: white;padding: 2px;}
+	#mostpopularsong {position:absolute;float: right;top:20px;right: -200px;width:181px;border:1px solid #ccc;font-size: 11px;}
+	#wolftop {width:175px;padding-right:3px;padding-left:3px;padding-bottom:2px;font-weight:bold;font-size:0.8em;background:#693}
+	.wolflink {text-decoration:none;color:white}
+	#wolftext {padding:4px;font-size:0.8em;color:#999}
+	.shorttext {display: none;}
+	/*songformatting only*/
+	.grids {position:absolute;top: 11px;right: 0px;border-bottom:none;width:192px;margin:0;padding:0;padding-top:5px;padding-bottom:10px;background:white}
+	.chorus {padding-left:3em;font-style:italic}
+	img.chord {float:left; padding-bottom: 10px;}
+	span.chord {color:#36c;font-weight: bold;font-size:0.9em; padding-right: 3px;}
+	.finalartist {display: inline; color:black;font-size:1.3em;font-style: italic;text-decoration:underline;}
+	.finaltitle {color:black;font-size:1.6em;margin-top:0.2em;margin-bottom: 0.4em;}
+	.chordline {margin-top: 1.3em;}
+	.chordonlyline {}
+	.textline {height: 1.3em;}
+	.relc {position: absolute;}
+	.absc,.alow {position: relative;color: #3366CC;top: -1em;font-weight: bold;}
+	.inlc,.ilow {position: relative;color: #3366CC;padding-left: 5px; padding-right: 5px;}
+	.alow,.ilow {top: 0em;}
+	.c {color: #3366CC;font-weight: bold;padding-right: 5px;}
+	.cl {height: 1.4em;vertical-align: bottom;font-size: 100%;}
+	.tl {font-size: 100%;}
+	.bracket {position: relative;display: none;}
+	.bridge {margin-left: 3em;padding-bottom: 0.2em;padding-top: 0.7em;}
+	.comment {font: 90% sans-serif;}
+	.commentitalic {font-size: 90%; font-style: italic;}
+	br {line-height: 1.8em;}
+	#regboxc {background: #F0F0F0;  border-top: 1px solid #F0F0F0;border-bottom: 1px solid #F0F0F0;width: 100%;text-align: center;margin-bottom: 0px;margin-top: 5px;color: black;}
+	#regboxc:hover {background-color: lightgrey;border-top: 1px solid #3366CC;border-bottom: 1px solid #3366CC;}
+	#regbox1 {font-weight: bold;font-size: 110%;padding: 8px;color: black;}
+	#regbox2 {font-weight: normal;font-size: 90%; padding-bottom: 4px;}
+	#registerlink {text-decoration: none;cursor: pointer;}
+			 
+
+	/*             styles for the star rater                */	
+	.star-rating {list-style:none;margin: 0px;padding:0px;width: 125px;height: 25px;position: relative;background: url(http://images.chordie.com/images/star.gif) top left repeat-x;}
+	.star-rating li{padding:0px;margin:0px;	/*\*/	float: left;/* */	}
+	.star-rating li a{display:block;width:25px;height: 25px;text-decoration: none;text-indent: -9000px;z-index: 20;position: absolute;padding: 0px;}
+	.star-rating li a:hover{background: url(http://images.chordie.com/images/star.gif) left bottom;z-index: 2;	left: 0px;}
+	.star-rating a.one-star{left: 0px;}
+	.star-rating a.one-star:hover{width:25px;}
+	.star-rating a.two-stars{left:25px;}
+	.star-rating a.two-stars:hover{width: 50px;}
+	.star-rating a.three-stars{left: 50px;}
+	.star-rating a.three-stars:hover{width: 75px;}
+	.star-rating a.four-stars{left: 75px;}	
+	.star-rating a.four-stars:hover{width: 100px;}
+	.star-rating a.five-stars{left: 100px;}
+	.star-rating a.five-stars:hover{width: 125px;}
+	.star-rating li.current-rating{background: url(http://images.chordie.com/images/star.gif) left center;	position: absolute;	height: 25px;display: block;text-indent: -9000px;	z-index: 1;}	
+	.star-rating li.current-rating-disabled{background: url(http://images.chordie.com/images/star.gif) left bottom;position: absolute;	height: 25px;display: block;text-indent: -9000px;z-index: 1;}
+	
+	/*             styles for the small star rater                */	
+	.star-small-rating{	list-style:none;margin: 0px;padding:0px;width: 100px;	height: 20px;	position: relative;	background: url(http://images.chordie.com/images/smallflatstar.gif) top left repeat-x;}
+	.star-small-rating li{padding:0px;margin:0px;	/*\*/	float: left;	/* */}
+	.star-small-rating li a{display:block;width:20px;	height: 20px;	text-decoration: none;text-indent: -9000px;	z-index: 20;position: absolute;	padding: 0px;}
+	.star-small-rating li a:hover{background: url(http://images.chordie.com/images/smallflatstar.gif) left bottom;	z-index: 2;	left: 0px;}
+	.star-small-rating a.one-star{left: 0px;}
+	.star-small-rating a.one-star:hover{width:20px;}
+	.star-small-rating a.two-stars{left:20px;}
+	.star-small-rating a.two-stars:hover{width: 40px;}
+	.star-small-rating a.three-stars{left: 40px;}
+	.star-small-rating a.three-stars:hover{width: 60px;}
+	.star-small-rating a.four-stars{left: 60px;}	
+	.star-small-rating a.four-stars:hover{width: 80px;}
+	.star-small-rating a.five-stars{left: 80px;}
+	.star-small-rating a.five-stars:hover{width: 100px;}
+	.star-small-rating li.current-small-rating{background: url(http://images.chordie.com/images/smallflatstar.gif) left center;position: absolute;	height: 20px;display: block;text-indent: -9000px;z-index: 1;}	
+	.star-small-rating li.current-small-rating-disabled{background: url(http://images.chordie.com/images/smallflatstar.gif) left bottom;	position: absolute;	height: 20px;	display: block;text-indent: -9000px;z-index: 1;}
+			
+	/* Browser specific (not valid) styles to make preformatted text wrap */		
+	pre {
+		width: 100%;
+		white-space: pre-wrap;       /* css-3 */
+		white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+		white-space: -pre-wrap;      /* Opera 4-6 */
+		white-space: -o-pre-wrap;    /* Opera 7 */
+		word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	}
+}
+
+/* This is just for printing directly from the screen */		
+
+@media print {
+	body {margin: 0.5in;padding: 0;width: 7.5in;}
+	h1.finaltitle {position: relative;clear: both;font-size: 18px;font-family: arial;font-style: normal;font-weight: bold;margin: 0px;font-variant: small-caps;}
+  h2.finalartist {font-size: 15px;text-decoration: none;font-family: arial;font-style: italic;margin: 0px;color: black; margin-bottom: 5px;}
+  pre {line-height: 0.9em;}
+  .onlyipod {display: none;}
+  .c {color: #3366CC;font-weight: bold;padding-right: 5pt;line-height: 8pt;}
+  .cl {vertical-align: bottom;font-size: 100%;}
+  .tl {font-size: 100%;}
+  .chorus {padding-left:3em;font-style:italic;}
+  .bridge {margin-left: 3em;padding-bottom: 0.2em;padding-top: 0.7em;}
+  .comment {font: 90% sans-serif;}
+  .commentitalic {font-size: 90%; font-style: italic;}
+  #grids {position: absolute;width: 1.4in;top: 0.9in;left: 5.45in;}
+	img {border: none;}
+	#logoimg {display: none;}
+	#slogan {display:none;}
+	#topadc {position:relative;	float:right;border:none;display:none;}
+
+	#lpbox {position:relative;float:right;border:1px solid #ccc;height: 0;width: 0;	visibility: hidden;	display:none;}
+	#smallsearchbox, #footer {position:relative;visibility: hidden;display:none;}
+	#commentbox, #lheader {position:relative;float:left;display: none;}
+	#letterc, #tabs, #rightc, #action0,#action1, #action10,#action2, #action3,#action4,#action6,#action7,#action8,#action9,#imageexplanation, #hideline, #wolfc,.rightad,#mostpopularsong, #horadc,#actionadd,#editinputs,#browsetext,#corrected,.extrainfo 
+		{float: left;position: absolute;display: none;}
+	#tabs {page-break-inside: avoid;}
+	.filler {display: none;}
+	.song {margin-top: 25px;}
+	br {line-height: 1.5em;}
+}
+
+@media handheld {
+	body {background-color: white;color:#36c;margin-left:10px;margin-top:0px;padding:0;font:0.9em verdana,arial,sans-serif}
+	h1 {color:#607386;margin:0;padding:0;font-size:15px;}
+	h2 {margin-left: 0px; padding-right: 0px; margin-bottom: 0px;margin-top: 0;font-size: 15px;}
+	img {border:none}
+	ul {margin-left:0;padding:0;margin-top:0;padding-left:10px}
+	ul.commentul {margin-left:10px;padding:5px;}
+	a {color:#693}
+	a.footer {color:#999;font-weight:normal;text-decoration:none}
+	pre {font-size: 95%;margin: 0;}
+	form {display: inline;}
+	input {padding-left: 2px;}
+	#popup {visibility: hidden;}
+	#commentbox {visibility: hidden;}
+	#aboutbox {visibility: hidden;}
+	#footer {visibility: hidden;}
+	#logoimg {z-index: 10;height: 22px; width: 150px;}
+	#slogan {visibility: hidden;}
+	#songexpl{visibility: hidden;}
+	#wikic {visibility: hidden;}
+	#controlc {visibility: hidden;}
+	#songbooksearch {visibility: hidden;}
+	.noipod {display: none;}
+	.onlyipod {display: block}
+	.sbl,.bl {text-decoration:none}
+	.sbl {color:white}
+	.bold {font-weight: bold}
+	.noborder {color:white}
+	.right {text-align:right}
+	.left {float:left}
+	.small {font-size:0.9em}
+	.center {text-align:left}
+	.hiddenunderline {text-decoration: none;}
+	.hiddenunderline:hover {text-decoration: underline;}
+	.underline {text-decoration:underline}
+	.green {color:#693}
+	.grey {color:#999}
+	.black {color:black}
+	.white {color: white}
+	.red {color: #c33}
+	.smallcaps {font-variant: small-caps}
+	.darkblue {color: #36c}
+	.codebox {background: white; color: black;border: 1px solid grey; padding: 10px;}
+	.iterationbar {position: relative;text-align:center}
+	.popularitem {padding-bottom:5px}
+	.songname,.artistname {margin-left:5px}
+	.artistname:visited,.songname:visited,.popularartistname:visited,.browseartistname {color:#607386}
+	.artistname {color:#36c}
+	.popularartistname,.browseartistname:visited {color:#607386; text-decoration: none}
+	.browseartistname {text-decoration: none;}
+	.chordheading {margin-top:25px}
+	.selectedtab,.unselectedtab {position:relative;float:left;padding-bottom: 0px;padding-top: 2px;font-size: 10px;margin-right:2px;color:#fff;font-weight:bold;background:#36c url(http://images.chordie.com/images/flipDark.gif) no-repeat 100% 0}
+	.unselectedtab {background:#6cf url(http://images.chordie.com/images/flip.gif) no-repeat 100% 0}
+	.tablink {text-decoration:none;color:white;padding-left:5px;padding-right:5px; font-size: 10px;}
+	.tablink:hover {text-decoration:underline}
+	.search {border:1px solid #36c}
+	.submit,.submitlogin {border:none;color:white;cursor:pointer;text-decoration:none;font-weight:bold;padding-left:2px;padding-right:2px;padding-bottom:2px;background:#36c}
+	.login {position:relative;border:1px solid #36c;width:100px}
+	.registerinput,.reminderinput {border:1px solid #36c;width:160px;margin-bottom:10px}
+	.boxtitle {color:#36c;position:relative;left: 0;font-size: 10px;background:#fff;font-weight: bold;text-decoration: underline;}
+	#loginlink {text-decoration: underline;}
+	#lpbox {height: 30px;text-align: right;top: -30px;}
+	#tabs {position: relative;text-align: left;}
+	.l,.sl {position:relative;float:left;width:5px;text-align:justify;font-weight:bold}
+	.sl {background:#36c}
+	.switchbrowse {color:#693;position:relative;top:10px;left:505px;width:50px;padding-right:5px; font-size: 14px;}
+	.clear {clear: both;}
+	.wb {border-bottom: 1px solid white;}
+	.commenttext {color: black;margin-left: 10px; margin-right: 10px; margin-top: 15px;}
+	.fixedw {width: 300px;}
+	.padleft {padding-left: 10px;}
+	#msnlink,#ituneslink {text-decoration: none; background-color: gray;cursor: pointer;color: white;font-family: arial;padding:2px;display: block; margin-top: 5px;margin-bottom: 5px;width: 90px;} 
+	#greyartistname {margin-left: 5px; color:#999}
+	#filterboxsmall {z-index: 0;position: relative; text-align: left;width: 100px;float: none; top: 0px;padding: 2px; padding-right: 5px;border-left: 1px solid #36c; border-bottom: 1px solid #36c;right: 0px; background-color: white;}
+	#filterboxlarge {z-index: 0;position: relative; width: 100px;float: none; top: 0px;padding: 2px; padding-right: 5px;border-left: 1px solid #36c; border-bottom: 1px solid #36c;right: 0px; background-color: white;}
+	#createsongbookc {margin-left: 10px;width: 100%;}
+	#createsongbooknameinput {width: 70%;margin-bottom: 5px;margin-top: 5px;}
+	#songbooklist {position: relative; right: 4px; margin: 2px;margin-bottom: -7px;width: 35%;float: left; background-color:#669933;border: 2px solid #669933;border-right: none;}
+	#songbookerror {position: relative; float: right; width: 69%; color: red; font-weight: bold; margin-bottom: 20px;margin-top: 10px;}
+	.whitehr {margin-top: 2px;margin-left: 10px; margin-right: 10px;border: 1px solid white;}
+	.songbooklistlinks, .songbooklistlinksselected {color: black; padding: 5px;font-weight: bold;}
+	.songbooklistlinksselected {color: #3366CC; background-color: #f0f0f0; text-decoration: none;}
+	#songbooktitlec {position:relative; bottom: 0px;}
+	#songbookaddc {position:relative; bottom: 0px;right: 5px;font-size: 95%;}
+	#songbooktitle {color: white; padding-left: 10px;}
+	#songbookwidetitlec {position: relative;height: 30px;}
+	#songbooksongs {position: relative;float: left;width: 60%;}
+	#songbookpublicinput {width: 50%}
+	#songbookpublicarea {width: 51%}
+	#artistexpl, #songexpl {position: relative;float: right; z-index: 5;width: 150px; margin-right: 10px; margin-top: 15px;text-align: right;}
+	#commentheading {font-size: 1.0em;}
+	#log {position:relative;top:0;left:10px}
+	#artistheading,#resultheading,#resourcesheading,#songbookheading,.chordheading {position:relative;padding:5px;font-size:1.6em;color:#36c}
+	#artistheading{float: left;padding-left: 10px;color: black;font-size: 40px;font-family:serif;width: 57%;}
+	#songbookheading {color: #36c;font-size: 1.3em; clear: none;}
+	#wikic {position:relative;top: -1px;clear: both;width:40%;padding-left: 7px;float:right;background:#f0f0f0;}
+	#wikitext {padding: 6px;padding-top: 2px;padding-right: 12px;font-size: 80%;}
+	#songc {float:none;margin-top:10px;}
+	.songnamelist {color: black;padding-left: 10px;}
+	.songnamec {padding-top: 3px;padding-bottom: 3px;}
+	.greybg {background: #f9f9f9;}
+	#wikipediaheader {margin-top:0; }
+
+	#resultc,#ajaxresultc,#resourcesc,#commentboxc,#songbookc,#singlesongc {width:95%;padding-left:5px;padding-right:5px}
+	#ajaxresultc {width: 57%;}
+	#rightc {position:relative;top:20px;right: 10px;}
+	#log {position:relative;left:10px;top:10px}
+	#newsflash,#newsflash2 {color: black;padding:10px;background:#f0f0f0}
+	#newsflash2 {margin-top: 10px;}
+	#newsflash.a {font-weight: bold;}
+	#tabs {padding-top: 0px;clear: none;}
+	#mostpopular,#topartists, #mostpopularsong,#megaadd {visibility: hidden;font-size: 11px;border:1px solid #ccc;width:178px;padding-bottom:10px;margin-bottom:10px;background-color: white;}
+	#megaaddc {padding-left: 4px;padding-top: 4px;}
+	.rightad {border:none;width:180px;margin-bottom:10px}
+	#topadc {visibility: hidden;}
+	#loginerror {position: relative;background-color:red;top: -1px;float:right; clear: right;width:231px;border:1px solid #ccc;border-top: none;text-align:center;color:#c33;padding:2px;background:#fff}
+	#requiredinfo {font-weight: bold;color: red;}
+	#topadc {border:none;}
+	#bodyhigh,#header,#bodynobar,#bodysong,#bodybrowse {position: relative;margin-right: 0px;}
+	#bodysong {margin-right: 5px;}
+	#frontpagetextleft,#frontpagetextright,#frontpagetextleftadv,#frontpagetextrightadv {position:relative; width:48%;padding:0px;float:left;margin-top: 10px;margin-bottom: 10px;font-size:0.85em}
+	#frontpagetextright {padding-left: 4%;}
+	#error, #listartists,#artistoverview,#resources,#publicsongbook,#commentbox,#singlesong,#songbook,#searchresults {position:relative;border:1px solid #36c;width:100%;margin-bottom:10px;padding-bottom: 10px;background:#f0f0f0;float:none; }
+	#artistoverview{color: black; background-color: white;}
+	#publicsongbook {background: white;}
+	#singlesong {position: relative;color:black;background:white}
+	#error, #artistoverview,#singlesong {margin-top:10px;}
+	#listartists {margin-top: 5px;}
+	#searchresults {border-top:none;top: -1px;}
+	#innersearchresults {padding-left: 10px;padding-right: 10px;}
+	#horadc {position: relative; float: left; clear: both;width: 100%;border: 1px solid #36c;margin-top: 5px;padding-top: 5px;padding-bottom: 5px;}
+	#horadtitle {width: 120px;padding-left: 5px;float: left;font-size: 90%;}
+	#horadcontent {float: left;font-size: 85%;}
+	#songbookadcontent {font-size: 81%;}
+
+	#leftcolumn {float: left; width: 49%;}
+	#rightcolumn {float: left; width: 49%;}
+
+	#addurl {border:1px solid #36c;width:300px}
+	#loginsubmit,#ratesubmit, #ratecancel,#songbooksubmit,#songbookcancel,#registersubmit,#remindersubmit,#feedbacksubmit,#feedbackcancel,#searchsubmit,#submitadvanced,#previewsave, #previewupdate, #previewrevert,#filtersubmit {color:#693;border:1px solid #36c; cursor: pointer;}
+	#filtersubmit {margin-left: 5px; margin-top: 5px; margin-bottom: 5px;}
+	#loginsubmitc {left:0px;top:0px;width:100px;text-align:left}
+	#loginsubmit {width:100px; font-size: 10px;}
+	#addsubmit,#songbooksubmit {color:#693;border:1px solid #36c;}
+	#sbrename,#sbchange,#sbcopy,#sbmove,#sbdelete,#sbpublish {width: 70px;color:#693;border:1px solid #36c;}
+	#sbchangedrop,#sbcopydrop,#sbmovedrop {margin-left: 10px;width: 90%;}
+	#sbnameinput {border: 1px solid lightgray;padding: 3px;margin-left: 10px;margin-right: 5px;width: 83%;}
+	#searchbox, #smallsearchbox, #searchboxadvanced {position: relative;border:1px solid #36c;background:#f0f0f0;width: 100%;padding-bottom: 0px;clear: both;}
+	#firstlinec,#secondlinec {padding: 0;padding-bottom: 0;position:relative;clear:none;width: 300px;}
+	#letterc {color:#f0f0f0;width: 100%;position: relative;top:3px;}
+	#searchtext,#browsetext {visibility: hidden;position: relative;float: none;text-align: left;color:#36c;width: 20%;}
+	#searchform {float: none;position: relative;}
+	#searchinputbox {position:relative;width: 400px;margin-right: 0px;margin-left: 0px;float:none; border:1px solid #36c;}
+	#searchsubmit,#submitadvanced {position:relative;margin-left: 10px;width: 100px;float: none;}
+	#matchadvanced,#whatadvanced,#resultsadvanced {position:relative; float: left;padding-top: 5px;padding-left: 5px;}
+	#matchadvanced {clear: both;padding-left: 5px;}
+	.switchsearch,.switchadvanced {visibility: hidden;position: relative;color:#693;float: right;text-align: right;width: 15%; top: 5px;}
+
+	#register,#loginbox,#passwordbox,#passwordtext,#logintext,#logouttext,#loginsubmitc {position:relative;float: none;}
+	#register,#loginbox,#passwordbox,#passwordtext,#logintext,#logouttext,#loginsubmitc {visibility: hidden;}
+	#register {top:0px;left:0px;text-align:left;color:#693;width:100px;}
+	#registerlink {font-size: 11px;}
+	#logintext,#loginbox {top:0px}
+	#loginbox,#passwordbox {top:0px;left:0px;width:100px;font-size: 11px;border:1px solid #36c}
+	#logintext,#passwordtext {left:0px; font-size: 11px;}
+	#passwordbox,#passwordtext {top:0px}
+	#logouttext {top:0px;left:0px}
+	#footer {position:relative;border-top:1px solid #ccc;color:#999;text-align:center;clear:both;font-size:0.9em}
+	#logo {position:relative;left:0px;top:0px;height: 40px; z-index: 5;float: none;}
+	.songiteration {position: relative;clear: none;width: 400px;text-align:left;}
+	.icons {width: 32%;float:left;text-align: center;background-position: top center;background-repeat: no-repeat;color:gray;}
+	.icons:hover {background-color: lightgray;color:black;text-decoration:underline;}
+	#songright {top:10px;position:relative;padding:0;padding-top:10px;width:191px;text-align:center}
+	#imageexplanation {clear: both; font-size: 75%;text-align: center;color: gray;margin-bottom: 5px;}
+	.icontext {clear: both; font-size: 10px;padding-top: 20px;line-height: 1.2em;text-align: center;}
+	#action0,#action1,# action10,#action2,#action3,#action4,#action5,#action6,#action7,#action8,#actionadd {visibility: hidden;text-align: left;position:relative;padding-bottom: 5px;clear:both; font-size: 1.0em;background-color: #f0f0f0; color: #36c; border: 1px solid #36c; border-right: none;border-bottom: none;}
+	#action0,#action1,#action10, #action2 {visibility: visible;}
+	#action4 {text-align: center;border-bottom: 1px solid #36c;}
+	#action7 {text-align: left;}
+	#action8 {padding-top: 5px;padding-bottom: 5px;padding-left: 10%; padding-right: 10%;height: 45px;}
+	#actionadd {background-color: white;padding: 2px;}
+	#mostpopularsong {position:relative;float: right;top:20px;right: 10px;width:181px;border:1px solid #ccc;font-size: 11px;}
+	#wolftop {width:175px;padding-right:3px;padding-left:3px;padding-bottom:2px;font-weight:bold;font-size:0.8em;background:#693}
+	.wolflink {text-decoration:none;color:white}
+	#wolftext {padding:4px;font-size:0.8em;color:#999}
+	/*songformatting only*/
+	.grids {position:relative;top: 11px;right: 0px;border-bottom:none;width:192px;margin:0;padding:0;padding-top:5px;padding-bottom:10px;background:white}
+	.chorus {padding-left:3em;font-style:italic}
+	img.chord {float:left; padding-bottom: 10px;}
+	span.chord {color:#36c;font-weight: bold;font-size:0.9em; padding-right: 3px;}
+	.finalartist {position:relative;color:black;font-size:13px;margin-top:0; margin-bottom:0;font-style: italic;text-decoration:underline;}
+	.finaltitle {position:relative;color:black;font-size:13px;margin-top:0px;}
+	.chordline {margin-top: 0px;font-size: 10px;}
+	.chordonlyline {}
+	.textline {height: 1.3em;font-size: 10px;}
+	.relc {position:relative;visibility: hidden;}
+	.absc,.xalow {position: relative;visibility: visible;color: #3366CC;top: 0em;font-weight: bold;}
+	.inlc,.ilow {position: relative;visibility: visible;color: #3366CC;padding-left: 0px; padding-right: 0px;}
+	.alow,.ilow {top: 0em;}
+	.bracket {position: relative;visibility: visible;color: #3366CC;font-weight: bold;}
+	.bridge {margin-left: 3em;padding-bottom: 0.2em;padding-top: 0.7em;}
+	.comment {font-size: 90%;font-family: sans-serif;}
+	.commentitalic {font-size: 90%; font-style: italic;}
+	br {line-height: 1.5em;}
+
+	/*             styles for the star rater                */	
+		.star-rating{
+			list-style:none;
+			margin: 0px;
+			padding:0px;
+			width: 125px;
+			height: 25px;
+			position: relative;
+			background: url(http://images.chordie.com/images/star.gif) top left repeat-x;		
+		}
+		.star-rating li{
+			padding:0px;
+			margin:0px;
+			/*\*/
+			float: left;
+			/* */
+		}
+		.star-rating li a{
+			display:block;
+			width:25px;
+			height: 25px;
+			text-decoration: none;
+			text-indent: -9000px;
+			z-index: 20;
+			position:relative;
+			padding: 0px;
+		}
+		.star-rating li a:hover{
+			background: url(http://images.chordie.com/images/star.gif) left bottom;
+			z-index: 2;
+			left: 0px;
+		}
+		.star-rating a.one-star{
+			left: 0px;
+		}
+		.star-rating a.one-star:hover{
+			width:25px;
+		}
+		.star-rating a.two-stars{
+			left:25px;
+		}
+		.star-rating a.two-stars:hover{
+			width: 50px;
+		}
+		.star-rating a.three-stars{
+			left: 50px;
+		}
+		.star-rating a.three-stars:hover{
+			width: 75px;
+		}
+		.star-rating a.four-stars{
+			left: 75px;
+		}	
+		.star-rating a.four-stars:hover{
+			width: 100px;
+		}
+		.star-rating a.five-stars{
+			left: 100px;
+		}
+		.star-rating a.five-stars:hover{
+			width: 125px;
+		}
+		.star-rating li.current-rating{
+			background: url(http://images.chordie.com/images/star.gif) left center;
+			position:relative;
+			height: 25px;
+			display: block;
+			text-indent: -9000px;
+			z-index: 1;
+		}	
+
+		.star-rating li.current-rating-disabled{
+			background: url(http://images.chordie.com/images/star.gif) left bottom;
+			position:relative;
+			height: 25px;
+			display: block;
+			text-indent: -9000px;
+			z-index: 1;
+		}	
+
+	/*             styles for the small star rater                */	
+		.star-small-rating{
+			list-style:none;
+			margin: 0px;
+			padding:0px;
+			width: 100px;
+			height: 20px;
+			position: relative;
+			background: url(http://images.chordie.com/images/smallflatstar.gif) top left repeat-x;		
+		}
+		.star-small-rating li{
+			padding:0px;
+			margin:0px;
+			/*\*/
+			float: left;
+			/* */
+		}
+		.star-small-rating li a{
+			display:block;
+			width:20px;
+			height: 20px;
+			text-decoration: none;
+			text-indent: -9000px;
+			z-index: 20;
+			position:relative;
+			padding: 0px;
+		}
+		.star-small-rating li a:hover{
+			background: url(http://images.chordie.com/images/smallflatstar.gif) left bottom;
+			z-index: 2;
+			left: 0px;
+		}
+		.star-small-rating a.one-star{
+			left: 0px;
+		}
+		.star-small-rating a.one-star:hover{
+			width:20px;
+		}
+		.star-small-rating a.two-stars{
+			left:20px;
+		}
+		.star-small-rating a.two-stars:hover{
+			width: 40px;
+		}
+		.star-small-rating a.three-stars{
+			left: 40px;
+		}
+		.star-small-rating a.three-stars:hover{
+			width: 60px;
+		}
+		.star-small-rating a.four-stars{
+			left: 60px;
+		}	
+		.star-small-rating a.four-stars:hover{
+			width: 80px;
+		}
+		.star-small-rating a.five-stars{
+			left: 80px;
+		}
+		.star-small-rating a.five-stars:hover{
+			width: 100px;
+		}
+		.star-small-rating li.current-small-rating{
+			background: url(http://images.chordie.com/images/smallflatstar.gif) left center;
+			position:relative;
+			height: 20px;
+			display: block;
+			text-indent: -9000px;
+			z-index: 1;
+		}	
+
+		.star-small-rating li.current-small-rating-disabled{
+			background: url(http://images.chordie.com/images/smallflatstar.gif) left bottom;
+			position:relative;
+			height: 20px;
+			display: block;
+			text-indent: -9000px;
+			z-index: 1;
+		}	
+}
+
+@media tv {
+	body {background-color: white;color:#36c;margin-left:10px;margin-top:0px;padding:0;font:0.9em verdana,arial,sans-serif}
+	h1 {color:#607386;margin:0;padding:0;font-size:15px;}
+	h2 {margin-left: 0px; padding-right: 0px; margin-bottom: 0px;margin-top: 0;font-size: 15px;}
+	img {border:none}
+	ul {margin-left:0;padding:0;margin-top:0;padding-left:10px}
+	ul.commentul {margin-left:10px;padding:5px;}
+	a {color:#693}
+	a.footer {color:#999;font-weight:normal;text-decoration:none}
+	pre {font-size: 95%;margin: 0;}
+	form {display: inline;}
+	input {padding-left: 2px;}
+	#popup {visibility: hidden;}
+	#commentbox {visibility: hidden;}
+	#aboutbox {visibility: hidden;}
+	#footer {visibility: hidden;}
+	#logoimg {z-index: 10;height: 22px; width: 150px;}
+	#slogan {visibility: hidden;}
+	#songexpl{visibility: hidden;}
+	#wikic {visibility: hidden;}
+	#controlc {visibility: hidden;}
+	#songbooksearch {visibility: hidden;}
+	#smallstars {visibility: hidden;}
+	.sbl,.bl {text-decoration:none}
+	.sbl {color:white}
+	.bold {font-weight: bold}
+	.noborder {color:white}
+	.right {text-align:right}
+	.left {float:left}
+	.small {font-size:0.9em}
+	.center {text-align:left}
+	.hiddenunderline {text-decoration: none;}
+	.hiddenunderline:hover {text-decoration: underline;}
+	.underline {text-decoration:underline}
+	.green {color:#693}
+	.grey {color:#999}
+	.black {color:black}
+	.white {color: white}
+	.red {color: #c33}
+	.smallcaps {font-variant: small-caps}
+	.darkblue {color: #36c}
+	.codebox {background: white; color: black;border: 1px solid grey; padding: 10px;}
+	.iterationbar {position: relative;text-align:center}
+	.popularitem {padding-bottom:5px}
+	.songname,.artistname {margin-left:5px}
+	.artistname:visited,.songname:visited,.popularartistname:visited,.browseartistname {color:#607386}
+	.artistname {color:#36c}
+	.popularartistname,.browseartistname:visited {color:#607386; text-decoration: none}
+	.browseartistname {text-decoration: none;}
+	.chordheading {margin-top:25px}
+	.selectedtab,.unselectedtab {position:relative;float:left;padding-bottom: 0px;padding-top: 2px;font-size: 10px;margin-right:2px;color:#fff;font-weight:bold;background:#36c url(http://images.chordie.com/images/flipDark.gif) no-repeat 100% 0}
+	.unselectedtab {background:#6cf url(http://images.chordie.com/images/flip.gif) no-repeat 100% 0}
+	.tablink {text-decoration:none;color:white;padding-left:5px;padding-right:5px; font-size: 10px;}
+	.tablink:hover {text-decoration:underline}
+	.search {border:1px solid #36c}
+	.submit,.submitlogin {border:none;color:white;cursor:pointer;text-decoration:none;font-weight:bold;padding-left:2px;padding-right:2px;padding-bottom:2px;background:#36c}
+	.login {position:relative;border:1px solid #36c;width:100px}
+	.registerinput,.reminderinput {border:1px solid #36c;width:160px;margin-bottom:10px}
+	.boxtitle {color:#36c;position:relative;left: 0;font-size: 10px;background:#fff;font-weight: bold;text-decoration: underline;}
+	#loginlink {text-decoration: underline;}
+	#lpbox {height: 30px;text-align: right;top: -30px;}
+	#tabs {position: relative;text-align: left;}
+	.l,.sl {position:relative;float:left;width:5px;text-align:justify;font-weight:bold}
+	.sl {background:#36c}
+	.switchbrowse {color:#693;position:relative;top:10px;left:505px;width:50px;padding-right:5px; font-size: 14px;}
+	.clear {clear: both;}
+	.wb {border-bottom: 1px solid white;}
+	.commenttext {color: black;margin-left: 10px; margin-right: 10px; margin-top: 15px;}
+	.fixedw {width: 300px;}
+	.padleft {padding-left: 10px;}
+	#msnlink,#ituneslink {text-decoration: none; background-color: gray;cursor: pointer;color: white;font-family: arial;padding:2px;display: block; margin-top: 5px;margin-bottom: 5px;width: 90px;} 
+	#greyartistname {margin-left: 5px; color:#999}
+	#filterboxsmall {z-index: 0;position: relative; text-align: left;width: 100px;float: none; top: 0px;padding: 2px; padding-right: 5px;border-left: 1px solid #36c; border-bottom: 1px solid #36c;right: 0px; background-color: white;}
+	#filterboxlarge {z-index: 0;position: relative; width: 100px;float: none; top: 0px;padding: 2px; padding-right: 5px;border-left: 1px solid #36c; border-bottom: 1px solid #36c;right: 0px; background-color: white;}
+	#createsongbookc {margin-left: 10px;width: 100%;}
+	#createsongbooknameinput {width: 70%;margin-bottom: 5px;margin-top: 5px;}
+	#songbooklist {position: relative; right: 4px; margin: 2px;margin-bottom: -7px;width: 35%;float: left; background-color:#669933;border: 2px solid #669933;border-right: none;}
+	#songbookerror {position: relative; float: right; width: 69%; color: red; font-weight: bold; margin-bottom: 20px;margin-top: 10px;}
+	.whitehr {margin-top: 2px;margin-left: 10px; margin-right: 10px;border: 1px solid white;}
+	.songbooklistlinks, .songbooklistlinksselected {color: black; padding: 5px;font-weight: bold;}
+	.songbooklistlinksselected {color: #3366CC; background-color: #f0f0f0; text-decoration: none;}
+	#songbooktitlec {position:relative; bottom: 0px;}
+	#songbookaddc {position:relative; bottom: 0px;right: 5px;font-size: 95%;}
+	#songbooktitle {color: white; padding-left: 10px;}
+	#songbookwidetitlec {position: relative;height: 30px;}
+	#songbooksongs {position: relative;float: left;width: 60%;}
+	#songbookpublicinput {width: 50%}
+	#songbookpublicarea {width: 51%}
+	#artistexpl, #songexpl {position: relative;float: right; z-index: 5;width: 150px; margin-right: 10px; margin-top: 15px;text-align: right;}
+	#commentheading {font-size: 1.0em;}
+	#log {position:relative;top:0;left:10px}
+	#artistheading,#resultheading,#resourcesheading,#songbookheading,.chordheading {position:relative;padding:5px;font-size:1.6em;color:#36c}
+	#artistheading{float: left;padding-left: 10px;color: black;font-size: 40px;font-family:serif;width: 57%;}
+	#songbookheading {color: #36c;font-size: 1.3em; clear: none;}
+	#wikic {position:relative;top: -1px;clear: both;width:40%;padding-left: 7px;float:right;background:#f0f0f0;}
+	#wikitext {padding: 6px;padding-top: 2px;padding-right: 12px;font-size: 80%;}
+	#songc {float:none;margin-top:10px;}
+	.songnamelist {color: black;padding-left: 10px;}
+	.songnamec {padding-top: 3px;padding-bottom: 3px;}
+	.greybg {background: #f9f9f9;}
+	#wikipediaheader {margin-top:0; }
+
+	#resultc,#ajaxresultc,#resourcesc,#commentboxc,#songbookc,#singlesongc {width:95%;padding-left:5px;padding-right:5px}
+	#ajaxresultc {width: 57%;}
+	#resourcesc {width: 95%;}
+	#rightc {position:relative;top:20px;right: 10px;}
+	#log {position:relative;left:10px;top:10px}
+	#newsflash,#newsflash2 {color: black;padding:10px;background:#f0f0f0}
+	#newsflash2 {margin-top: 10px;}
+	#newsflash.a {font-weight: bold;}
+	#tabs {padding-top: 0px;clear: none;}
+	#mostpopular,#topartists, #mostpopularsong,#megaadd {visibility: hidden;font-size: 11px;border:1px solid #ccc;width:178px;padding-bottom:10px;margin-bottom:10px;background-color: white;}
+	#mostpopular {visibility: visible;}
+	#megaaddc {padding-left: 4px;padding-top: 4px;}
+	.rightad {border:none;width:180px;margin-bottom:10px}
+	#topadc {visibility: hidden;}
+	#loginerror {position: relative;background-color:red;top: -1px;float:right; clear: right;width:231px;border:1px solid #ccc;border-top: none;text-align:center;color:#c33;padding:2px;background:#fff}
+	#requiredinfo {font-weight: bold;color: red;}
+	#topadc {border:none;}
+	#bodyhigh,#header,#bodynobar,#bodysong,#bodybrowse {position: relative;margin-right: 0px;}
+	#bodysong {margin-right: 5px;}
+	#header {z-index: 5}
+	#frontpagetextleft,#frontpagetextright,#frontpagetextleftadv,#frontpagetextrightadv {position:relative; width:48%;padding:0px;float:left;margin-top: 10px;margin-bottom: 10px;font-size:0.85em;}
+	#frontpagetextright {padding-left: 4%;}
+	#error, #listartists,#artistoverview,#resources,#publicsongbook,#commentbox,#singlesong,#songbook,#searchresults {position:relative;border:1px solid #36c;width:100%;margin-bottom:10px;padding-bottom: 10px;background:#f0f0f0;float:none; }
+	#artistoverview{color: black; background-color: white;}
+	#publicsongbook {background: white;}
+	#singlesong {position: relative;color:black;background:white}
+	#error, #artistoverview,#singlesong {margin-top:10px;}
+	#listartists {margin-top: 5px;}
+	#searchresults {border-top:none;top: -1px;}
+	#innersearchresults {padding-left: 10px;padding-right: 10px;}
+	#horadc {position: relative; float: left; clear: both;width: 100%;border: 1px solid #36c;margin-top: 5px;padding-top: 5px;padding-bottom: 5px;}
+	#horadtitle {width: 120px;padding-left: 5px;float: left;font-size: 90%;}
+	#horadcontent {float: left;font-size: 85%;}
+	#songbookadcontent {font-size: 81%;}
+
+	#leftcolumn {float: left; width: 49%;}
+	#rightcolumn {float: left; width: 49%;}
+
+	#addurl {border:1px solid #36c;width:300px}
+	#loginsubmit,#ratesubmit, #ratecancel,#songbooksubmit,#songbookcancel,#registersubmit,#remindersubmit,#feedbacksubmit,#feedbackcancel,#searchsubmit,#submitadvanced,#previewsave, #previewupdate, #previewrevert,#filtersubmit {color:#693;border:1px solid #36c; cursor: pointer;}
+	#filtersubmit {margin-left: 5px; margin-top: 5px; margin-bottom: 5px;}
+	#loginsubmitc {left:0px;top:0px;width:100px;text-align:left}
+	#loginsubmit {width:100px; font-size: 10px;}
+	#addsubmit,#songbooksubmit {color:#693;border:1px solid #36c;}
+	#sbrename,#sbchange,#sbcopy,#sbmove,#sbdelete,#sbpublish {width: 70px;color:#693;border:1px solid #36c;}
+	#sbchangedrop,#sbcopydrop,#sbmovedrop {margin-left: 10px;width: 90%;}
+	#sbnameinput {border: 1px solid lightgray;padding: 3px;margin-left: 10px;margin-right: 5px;width: 83%;}
+	#searchbox, #smallsearchbox, #searchboxadvanced {position: relative;border:1px solid #36c;background:#f0f0f0;width: 100%;padding-bottom: 0px;clear: both;}
+	#firstlinec,#secondlinec {padding: 0;padding-bottom: 0;position:relative;clear:none;width: 300px;}
+	#letterc {color:#f0f0f0;width: 100%;position: relative;top:3px;}
+	#searchtext,#browsetext {visibility: hidden;position: relative;float: none;text-align: left;color:#36c;width: 20%;}
+	#searchform {float: none;position: relative;}
+	#searchinputbox {position:relative;width: 400px;margin-right: 0px;margin-left: 0px;float:none; border:1px solid #36c;}
+	#searchsubmit,#submitadvanced {position:relative;margin-left: 10px;width: 100px;float: none;}
+	#matchadvanced,#whatadvanced,#resultsadvanced {position:relative; float: left;padding-top: 5px;padding-left: 5px;}
+	#matchadvanced {clear: both;padding-left: 5px;}
+	.switchsearch,.switchadvanced {visibility: hidden;position: relative;color:#693;float: right;text-align: right;width: 15%; top: 5px;}
+
+	#register,#loginbox,#passwordbox,#passwordtext,#logintext,#logouttext,#loginsubmitc {position:relative;float: none;}
+	#register,#loginbox,#passwordbox,#passwordtext,#logintext,#logouttext,#loginsubmitc {visibility: hidden;}
+	#register {top:0px;left:0px;text-align:left;color:#693;width:100px;}
+	#registerlink {font-size: 11px;}
+	#logintext,#loginbox {top:0px}
+	#loginbox,#passwordbox {top:0px;left:0px;width:100px;font-size: 11px;border:1px solid #36c}
+	#logintext,#passwordtext {left:0px; font-size: 11px;}
+	#passwordbox,#passwordtext {top:0px}
+	#logouttext {top:0px;left:0px}
+	#footer {position:relative;border-top:1px solid #ccc;color:#999;text-align:center;clear:both;font-size:0.9em}
+	#logo {position:relative;left:0px;top:0px;height: 40px; z-index: 5;float: none;}
+	.songiteration {position: relative;clear: none;width: 400px;text-align:left;}
+	.icons {width: 32%;float:left;text-align: center;background-position: top center;background-repeat: no-repeat;color:gray;}
+	.icons:hover {background-color: lightgray;color:black;text-decoration:underline;}
+	#songright {top:10px;position:relative;padding:0;padding-top:10px;width:191px;text-align:center}
+	#imageexplanation {clear: both; font-size: 75%;text-align: center;color: gray;margin-bottom: 5px;}
+	.icontext {clear: both; font-size: 10px;padding-top: 20px;line-height: 1.2em;text-align: center;}
+	#action0,#action1, #action10,#action2,#action3,#action4,#action5,#action6,#action7,#action8,#actionadd {visibility: hidden;text-align: left;position:relative;padding-bottom: 5px;clear:both; font-size: 1.0em;background-color: #f0f0f0; color: #36c; border: 1px solid #36c; border-right: none;border-bottom: none;}
+	#action0,#action1,#action10,#action2 {visibility: visible;}
+	#action4 {text-align: center;border-bottom: 1px solid #36c;}
+	#action7 {text-align: left;}
+	#action8 {padding-top: 5px;padding-bottom: 5px;padding-left: 10%; padding-right: 10%;height: 45px;}
+	#actionadd {background-color: white;padding: 2px;}
+	#mostpopularsong {position:relative;float: right;top:20px;right: 10px;width:181px;border:1px solid #ccc;font-size: 11px;}
+	#wolftop {width:175px;padding-right:3px;padding-left:3px;padding-bottom:2px;font-weight:bold;font-size:0.8em;background:#693}
+	.wolflink {text-decoration:none;color:white}
+	#wolftext {padding:4px;font-size:0.8em;color:#999}
+	/*songformatting only*/
+	.grids {position:relative;top: 11px;right: 0px;border-bottom:none;width:192px;margin:0;padding:0;padding-top:5px;padding-bottom:10px;background:white}
+	.chorus {padding-left:3em;font-style:italic}
+	img.chord {float:left; padding-bottom: 10px;}
+	span.chord {color:#36c;font-weight: bold;font-size:0.9em; padding-right: 3px;}
+	.finalartist {position:relative;color:black;font-size:13px;margin-top:0; margin-bottom:0;font-style: italic;text-decoration:underline;}
+	.finaltitle {position:relative;color:black;font-size:13px;margin-top:0px;}
+	.chordline {margin-top: 0px;font-size: 10px;}
+	.chordonlyline {}
+	.textline {height: 1.3em;font-size: 10px;}
+	.relc {position:relative;visibility: hidden;}
+	.absc,.xalow {position: relative;visibility: visible;color: #3366CC;top: 0em;font-weight: bold;}
+	.inlc,.ilow {position: relative;visibility: visible;color: #3366CC;padding-left: 0px; padding-right: 0px;}
+	.alow,.ilow {top: 0em;}
+	.bracket {position: relative;visibility: visible;color: #3366CC;font-weight: bold;}
+	.bridge {margin-left: 3em;padding-bottom: 0.2em;padding-top: 0.7em;}
+	.comment {font-size: 90%;font-family: sans-serif;}
+	.commentitalic {font-size: 90%; font-style: italic;}
+	br {line-height: 1.5em;}
+
+	/*             styles for the star rater                */	
+		.star-rating{
+			list-style:none;
+			margin: 0px;
+			padding:0px;
+			width: 125px;
+			height: 25px;
+			position: relative;
+			background: url(http://images.chordie.com/images/star.gif) top left repeat-x;		
+		}
+		.star-rating li{
+			padding:0px;
+			margin:0px;
+			/*\*/
+			float: left;
+			/* */
+		}
+		.star-rating li a{
+			display:block;
+			width:25px;
+			height: 25px;
+			text-decoration: none;
+			text-indent: -9000px;
+			z-index: 20;
+			position:relative;
+			padding: 0px;
+		}
+		.star-rating li a:hover{
+			background: url(http://images.chordie.com/images/star.gif) left bottom;
+			z-index: 2;
+			left: 0px;
+		}
+		.star-rating a.one-star{
+			left: 0px;
+		}
+		.star-rating a.one-star:hover{
+			width:25px;
+		}
+		.star-rating a.two-stars{
+			left:25px;
+		}
+		.star-rating a.two-stars:hover{
+			width: 50px;
+		}
+		.star-rating a.three-stars{
+			left: 50px;
+		}
+		.star-rating a.three-stars:hover{
+			width: 75px;
+		}
+		.star-rating a.four-stars{
+			left: 75px;
+		}	
+		.star-rating a.four-stars:hover{
+			width: 100px;
+		}
+		.star-rating a.five-stars{
+			left: 100px;
+		}
+		.star-rating a.five-stars:hover{
+			width: 125px;
+		}
+		.star-rating li.current-rating{
+			background: url(http://images.chordie.com/images/star.gif) left center;
+			position:relative;
+			height: 25px;
+			display: block;
+			text-indent: -9000px;
+			z-index: 1;
+		}	
+
+		.star-rating li.current-rating-disabled{
+			background: url(http://images.chordie.com/images/star.gif) left bottom;
+			position:relative;
+			height: 25px;
+			display: block;
+			text-indent: -9000px;
+			z-index: 1;
+		}	
+
+	/*             styles for the small star rater                */	
+		.star-small-rating{
+			list-style:none;
+			margin: 0px;
+			padding:0px;
+			width: 100px;
+			height: 20px;
+			position: relative;
+			background: url(http://images.chordie.com/images/smallflatstar.gif) top left repeat-x;		
+		}
+		.star-small-rating li{
+			padding:0px;
+			margin:0px;
+			/*\*/
+			float: left;
+			/* */
+		}
+		.star-small-rating li a{
+			display:block;
+			width:20px;
+			height: 20px;
+			text-decoration: none;
+			text-indent: -9000px;
+			z-index: 20;
+			position:relative;
+			padding: 0px;
+		}
+		.star-small-rating li a:hover{
+			background: url(http://images.chordie.com/images/smallflatstar.gif) left bottom;
+			z-index: 2;
+			left: 0px;
+		}
+		.star-small-rating a.one-star{
+			left: 0px;
+		}
+		.star-small-rating a.one-star:hover{
+			width:20px;
+		}
+		.star-small-rating a.two-stars{
+			left:20px;
+		}
+		.star-small-rating a.two-stars:hover{
+			width: 40px;
+		}
+		.star-small-rating a.three-stars{
+			left: 40px;
+		}
+		.star-small-rating a.three-stars:hover{
+			width: 60px;
+		}
+		.star-small-rating a.four-stars{
+			left: 60px;
+		}	
+		.star-small-rating a.four-stars:hover{
+			width: 80px;
+		}
+		.star-small-rating a.five-stars{
+			left: 80px;
+		}
+		.star-small-rating a.five-stars:hover{
+			width: 100px;
+		}
+		.star-small-rating li.current-small-rating{
+			background: url(http://images.chordie.com/images/smallflatstar.gif) left center;
+			position:relative;
+			height: 20px;
+			display: block;
+			text-indent: -9000px;
+			z-index: 1;
+		}	
+
+		.star-small-rating li.current-small-rating-disabled{
+			background: url(http://images.chordie.com/images/smallflatstar.gif) left bottom;
+			position:relative;
+			height: 20px;
+			display: block;
+			text-indent: -9000px;
+			z-index: 1;
+		}	
+
+
+}
+
+@media screen and (xxxmax-device-width: 481px) {
+	body {width: 600px;background-color: white;font-size: 220%;}
+	label {font-size: 25px;}
+	select {font-size: 100%;}
+	#tabs{display: none;}
+	.checkbox {-webkit-border-radius: 20px;position: relative; top: 15px;width:50px;height:50px;}
+	#fq{margin-top: 15px; height: 25px;}
+	#letterselect {display: inline;margin-top: 15px;padding-top: 20px;font-size: 25px;width: 200px;text-align: center;font-weight: bold;}
+	#letterc {display: none;}
+	#small {font-size: 100%;margin-right: 10px;}
+	#normal {font-size: 150%;margin-right: 10px;}
+	#large {font-size: 200%}
+	#bodysong,#horadc,#header,#footer,#commentbox {}
+	#loginbox,#passwordbox {display: none;width: 100px;left: 85px;}
+	#register,#loginsubmitc {left: 190px;}
+	#registerlink {font-size: 130%}
+	#bodysong,#songbooklist,#songbooksongs {width: 590px;}
+	#songbooksongs {padding-top: 40px;}
+	#songbooklist {padding-top: 40px;}
+	#singlesong {border: none;}
+	#action0,#action1,#action10,,#action2,#action3,#action4,#action5,#action6,#action7,#action8,#action9,#actionadd {font-size: 150%;background-color: #f0f0f0; color: #36c; border-right: 1px solid #36c;margin-right: 15px;}
+	#action7,#action4,#action8,#wikic {display: none;}
+	#action3 {border-bottom: 1px solid #36c;}
+	#commentbox {width: 590px;margin-right: 15px;}
+	.noipod {display:none;}
+	.onlyipod {display: block;margin-top: 30px;}
+	.albumimage {padding-top: 10px;}
+	.albumimagec{position: absolute;right:0px;}
+	.newartistheading {clear: left;height: 50px;font-size: 1.2em;margin-top: 0px;padding-left: 5px; color: black;background-color:#f0f0f0;width: 100%}
+	.songlist {float: left;margin-top:0;font-size: 1.15em;line-height: 2em;margin-left:10px;margin-bottom: 10px;padding-right: 100px;}
+	.songlistitem {margin-right: 0px;}
+	.sort {position: relative; float: right;z-index: 20;width: 400px; text-align: right;right: 0;font-size: 1.2em;}
+	.filler {display: none;}
+	.artistname,.songname {color: black;text-decoration: none;width: 100%;height: 42px;}
+	div.artistname{font-size: 150%;color: grey;}
+	.separator {border:0;height: 1px; color: #d9d9d9;background-color:#d9d9d9;display:block;}
+	.songsearchitem {font-size: 30px;width: 590px;line-height: 1;}
+	#googleadlink {display: none;}
+	.right,.left {text-align: center;clear: both;width: 100%;font-size: 100%;display: none;}
+	#leftcolumn, #rightcolumn,#bodybrowse,#megaaddc,#resources,#bodynobar {width: 590px;}
+	#listartists,#resources,#songbooklist, #bodyhigh,#songbooksongs, #resourcesc,#publicsongbook,#songbook,#songnamec,#songc {line-height: 50px;background-color: white;border: none;}
+	#bodyhigh {margin-right: 10px;line-height: 30px;}
+	#artistoverview {border: none;}
+	#grids {position: relative;float: left;width: 590px;}
+	#logoimg {padding-top: 5px;padding-bottom: 15px;}
+	#slogan,#aboutbox {display: none;}
+	#mostpopularsong,#megaadd {display: none;position: relative;float: left;}
+	#lpbox {display:none;position: absolute;top: -15px;left: 335px;width: 260px;font-size: 10px;}
+	#songbooktitle {font-size: 50px;color: black;}
+	#songbookheading {font-size: 40px;}
+	#songbookaddc {font-size: 30px;}
+	#loginlink {display: none;}
+	#browsetext {font-size: 25px;padding-left: 10px;padding-right:15px;width: 200px;padding-top: 25px;padding-bottom: 15px;}
+	#newsflash {display: none;}
+	#newsflash2 {background-color: white;}
+	#smallsearchbox,#searchbox {width: 590px;padding-bottom:20px;}
+	#searchbox {display: none;z-index: 99}
+	#letterc {padding-left: 10px;padding-top: 10px; padding-bottom: 10px;width: 100%;}
+	/* This is the top ad - too large at the moment - temp disable */
+	#horadc {width: 590px;font-size: 75%;display: none;}
+	.tablink {font-size: 150%;}
+	.l {width: 21px;font-size: 90%;}
+	.selectedtab,.unselectedtab {padding: 2px;padding-top: 15px;padding-bottom: 20px;margin-right: 10px;}
+	.unselectedtab {background:#6cf}
+	.selectedtab {background:#36c}
+	.longtext {display: none;}
+	.shorttext {display: inline;}
+	.chord,.gridimages {height: 128px; width: 128px}
+	#rightc {display:none;position: relative;clear: both;margin-top: -80px;width: 590px;}
+	#topartists,#mostpopular {margin: 15px;width: 570px;}
+	#frontpagetextleft, #frontpagetextright {width: 590px;}
+	#footer,.switchsearch,#topadc,#filterboxsmall,#songexpl {display: none;}
+	#searchform {width: 400px;}
+	#searchsubmit,#songbooksubmit,.songbooksubmit,#sbchange,#sbcopy,#sbmove,#sbdelete,#sbpublish,#sbrename {font-size: 25px;font-weight: bold;width: 130px;margin-top: 12px;margin-left: 10px;}
+	#searchsubmit {visibility: hidden;width: 125px;margin-left: 5px;margin-top: 13px;font-size: 22px;}
+	#sbchangedrop,#sbcopydrop,#sbmovedrop,#sbdeletedrop,#sbpublishdrop,#sbnameinput {width: 250px;font-size: 120%}
+	#songbooksubmit,.songbooksubmit {width: 100%;margin-top: 50px;}
+	.small {font-size: 30px;}
+	#searchtext {font-size: 70%; margin-left: 10px;width: 160px;margin-top: 15px;}
+	#searchinputbox {height: 25px;width: 240px;margin-top: 15px;font-size: 22px;padding-left: 5px;}
+	.iteration {width: 150px;}
+}
+
+@media screen and (max-device-width: 481px) {
+		.tablink {font-size: 10px;}
+		#logoimg {width: 200px;height:29px;}
+		#slogan {font-size: 10px;padding-bottom: 10px;}
+		#lpbox {width: 160px;height: 35px;left: 3px;}
+		.boxtitle {font-size: 10px;}
+		#logintext,#passwordtext {font-size: 8px;}
+		#logintext {left: 3px; top: 5px;}
+		#logouttext {top: 25px; left: 120px;font-size: 7px;}
+		#loginbox {left: 50px; top: 6px;}
+		#passwordtext {left: 3px; top: 20px;}
+		#passwordbox {left: 50px; top: 21px;}
+		#loginbox, #passwordbox {width: 60px; height: 5px;font-size: 7px;padding-top: 2px;}
+		#register {left: 90px;top: 1px;}
+		#registerlink {font-size: 8px;text-decoration: underline;}
+		#loginsubmitc {left: 90px;top: 21px;}
+		#loginsubmit {width: 34px; height: 12px;font-size: 7px; padding-left: 0px;text-align: left;vertical-align: top;}
+		#browsetext {font-size: 9px;top: 2px;width: 13%;}
+		#searchtext {font-size: 9px;top: 5px;width: 13%;}
+		.l {width: 18px;font-size: 13px;}
+		#letterc {width: 86%;}
+		#frontpagetextleft {width: 336px;}
+		#frontpagetextright {position: absolute;left: 340px;top: 90px;width:230px;}
+		#googleadlink {display: none;}
+		#songexpl {display: none;}
+		#topadc {display: none;}
+		#ajaxresultc {width: 90%;}
+		#wikic {display: none;}
+		#megaadd {display: none;}
+		#horadc {display: none;}
+		#jamplay {display: none;}
+		#mostpopularsong {display: none;}
+		#grids {position: relative;width: 100%;}
+		#action9,#action8,#action7,#action3, #action4,#action10 {display: none;}
+		#action2 {border-bottom: 1px solid #36c;}
+		#action0,#action1,#action2 {border-right: 1px solid #36c;}
+		#aboutbox {display: none;}
+		#rightc {display: none;}
+		#headermargin {padding-right: 0px;}
+		#firstlinec {width: 100%}
+		#bodybrowse {margin-right: 0px;}
+		.sort {width: 100%;background-color: #F0F0F0;padding-bottom: 3px;position: relative; right: 0px;}
+		#filterboxsmall {border-top: 1px solid white;border-right: 1px solid white;}
+		.unselectedtab,.selectedtab {background-clip: padding-box;}
+		#footer {width: 585px;}
+		.systembr {display: none;}
+		#bodynobar {margin-right: 0px;}
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 1024px){
+		.tablink {font-size: 10px;}
+		#logoimg {width: 200px;height:29px;}
+		#slogan {font-size: 10px;padding-bottom: 10px;}
+		#lpbox {width: 160px;height: 35px;left: 3px;}
+		.boxtitle {font-size: 10px;}
+		#logintext,#passwordtext {font-size: 8px;}
+		#logintext {left: 3px; top: 5px;}
+		#logouttext {top: 25px; left: 120px;font-size: 7px;}
+		#loginbox {left: 50px; top: 6px;}
+		#passwordtext {left: 3px; top: 20px;}
+		#passwordbox {left: 50px; top: 21px;}
+		#loginbox, #passwordbox {width: 60px; height: 5px;font-size: 7px;padding-top: 2px;}
+		#register {left: 90px;top: 1px;}
+		#registerlink {font-size: 8px;text-decoration: underline;}
+		#loginsubmitc {left: 90px;top: 21px;}
+		#loginsubmit {width: 34px; height: 12px;font-size: 7px; padding-left: 0px;text-align: left;vertical-align: top;}
+		#browsetext {font-size: 9px;top: 2px;width: 13%;}
+		#searchtext {font-size: 9px;top: 5px;width: 13%;}
+		.l {width: 18px;font-size: 13px;}
+		#letterc {width: 86%;}
+		#frontpagetextleft {width: 336px;}
+		#frontpagetextright {position: absolute;left: 340px;top: 90px;width:230px;}
+		#googleadlink {display: none;}
+		#songexpl {display: none;}
+		#topadc {display: none;}
+		#ajaxresultc {width: 90%;}
+		#wikic {display: none;}
+		#megaadd {display: none;}
+		#horadc {display: none;}
+		#jamplay {display: none;}
+		#mostpopularsong {display: none;}
+		#grids {position: relative;width: 100%;}
+		#action9,#action8,#action7,#action3, #action4,#action10 {display: none;}
+		#action2 {border-bottom: 1px solid #36c;}
+		#action0,#action1,#action2 {border-right: 1px solid #36c;}
+		#aboutbox {display: none;}
+		#rightc {display: none;}
+		#headermargin {padding-right: 0px;}
+		#firstlinec {width: 100%}
+		#bodybrowse {margin-right: 0px;}
+		.sort {width: 100%;background-color: #F0F0F0;padding-bottom: 3px;position: relative; right: 0px;}
+		#filterboxsmall {border-top: 1px solid white;border-right: 1px solid white;}
+		.unselectedtab,.selectedtab {background-clip: padding-box;}
+		#footer {width: 585px;}
+		.systembr {display: none;}
+		#bodynobar {margin-right: 0px;}
+}
